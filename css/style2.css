@@ -5,30 +5,36 @@
 body {
   background-color: #c3f4ff;
 }
+
 h1 {
   background-color: #bab0e6;
-  color: hsl(147 50% 47%);
+  color: hsl(147deg 50% 47%);
   padding: 40px;
   text-align: center;
 }
+
 p {
-  background-color: hwb(280 79% 0%);
+  background-color: hwb(280deg 79% 0%);
 }
 ul {
   color: rgb(0 0 0);
 }
+
 ul li::before {
   content: "✅";
 }
+
 table {
   border: solid thin;
 }
+
 th {
   height: 2rem;
   background: rgb(255 234 234);
   border: 1px solid rgb(235 183 255);
   text-align: left;
 }
+
 td {
   height: 2rem;
   background: rgb(255 234 234);
